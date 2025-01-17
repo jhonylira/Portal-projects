@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portal de Projetos AMVALI</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+        .container {
+            margin: 20px;
+        }
+        h1, h2 {
+            color: #333;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            margin: 10px 0;
+        }
+        a {
+            text-decoration: none;
+            color: #007BFF;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Portal de Projetos AMVALI</h1>
+        <p>Acesse os projetos organizados por município</p>
+    </header>
+    <div class="container">
+        <h2>Municípios</h2>
+        <ul>
+            <li><a href="#jaragua-do-sul">Jaraguá do Sul</a></li>
+            <li><a href="#schroeder">Schroeder</a></li>
+            <li><a href="#corupa">Corupá</a></li>
+            <li><a href="#guaramirim">Guaramirim</a></li>
+            <li><a href="#massaranduba">Massaranduba</a></li>
+            <li><a href="#barra-velha">Barra Velha</a></li>
+            <li><a href="#sao-joao-do-itaperiu">São João do Itaperiú</a></li>
+        </ul>
+    </div>
+
+    <div class="container">
+        <h2 id="jaragua-do-sul">Jaraguá do Sul</h2>
+        <ul>
+            <li><a href="https://drive.google.com/file/d/SEU-LINK-AQUI/view" target="_blank">Projeto 1 - Diagrama Geral</a></li>
+            <li><a href="https://drive.google.com/file/d/SEU-LINK-AQUI/view" target="_blank">Projeto 2 - Planta Arquitetônica</a></li>
+        </ul>
+
+        <h2 id="schroeder">Schroeder</h2>
+        <ul>
+            <li><a href="https://drive.google.com/file/d/SEU-LINK-AQUI/view" target="_blank">Projeto 1 - Diagrama Urbano</a></li>
+        </ul>
+
+        <h2 id="corupa">Corupá</h2>
+        <ul>
+            <li><a href="https://drive.google.com/file/d/SEU-LINK-AQUI/view" target="_blank">Projeto 1 - Análise Ambiental</a></li>
+        </ul>
+
+        <!-- Adicione outras cidades aqui -->
+
+    </div>
+</body>
+</html>
